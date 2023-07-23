@@ -18,15 +18,16 @@ function HomePage() {
             width={110}
             height={110}
             alt="Picture of the author"
-            style={{ borderRadius: "100%", marginTop: "2vh" }}
+            style={{ borderRadius: "100%", marginTop: "2vh" ,imageResolution:"from-image 300dpi"}}
           />
           <div
             className="socialMedia"
             style={{
               width: "100%",
               height: "4vh",
-              backgroundColor: "red",
+              // backgroundColor: "red",
               marginBottom: "2vh",
+              marginTop: "3vh",
             }}
           >
             <div
@@ -34,47 +35,89 @@ function HomePage() {
               style={{
                 width: "70%",
                 height: "100%",
-                backgroundColor: "white",
+                // backgroundColor: "white",
                 marginLeft: "auto",
                 marginRight: "auto",
+                // justifyContent:"space-between"
               }}
             >
               {/* icons here */}
+              <Image
+                src="/images/skype.svg"
+                width={25}
+                height={25}
+                alt="skype"
+                style={{ marginRight: "2vh" }}
+              />
+              <Image
+                src="/images/github.svg"
+                width={25}
+                height={25}
+                alt="github"
+                style={{ marginRight: "2vh" }}
+              />
+              <Image
+                src="/images/instagram.svg"
+                width={25}
+                height={25}
+                alt="instagram"
+                style={{ marginRight: "2vh" }}
+              />
+              <Image
+                src="/images/linkedin.svg"
+                width={25}
+                height={25}
+                alt="linkedin"
+                style={{ marginRight: "2vh" }}
+              />
             </div>
           </div>
         </div>
-        <a className="active" href="#home">
-          <HomeOutlinedIcon style={{ marginRight: "1vh" }} />
+        <a href="#home">
+          <HomeOutlinedIcon className={styles.icons} />
           Home
         </a>
 
         <a href="#Resume">
-          <DescriptionOutlinedIcon style={{ marginRight: "1vh" }} />
+          <DescriptionOutlinedIcon className={styles.icons} />
           Resume
         </a>
         <a href="#Projects">
           {" "}
-          <TaskOutlinedIcon style={{ marginRight: "1vh" }} />
+          <TaskOutlinedIcon className={styles.icons} />
           Projects
         </a>
         <a href="#Contact">
           {" "}
-          <ContactsOutlinedIcon style={{ marginRight: "1vh" }} />
+          <ContactsOutlinedIcon className={styles.icons} />
           Contact
         </a>
       </div>
 
       <div className={styles.content}>
-        <h2>Responsive Sidebar Example</h2>
-        <p>
-          This example use media queries to transform the sidebar to a top
-          navigation bar when the screen size is 700px or less.
-        </p>
-        <p>
-          We have also added a media query for screens that are 400px or less,
-          which will vertically stack and center the navigation links.
-        </p>
-        <h3>Resize the browser window to see the effect.</h3>
+        <div
+          className="intro"
+          style={{
+            width: "100%",
+            height: "auto",
+            backgroundColor: "",
+            marginTop: "10%",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
+          <h6>HI THERE! I'M</h6>
+          <h1>AVI PAWAR</h1>
+          <h5>
+            A{" "}
+            <span style={{ color: "rgb(61 203 203)" }}>
+              {" "}
+              Front-End Web Developer{" "}
+            </span>{" "}
+            passionate about creating interactive applications and experiences
+            on the web.
+          </h5>
+        </div>
       </div>
     </>
   );
