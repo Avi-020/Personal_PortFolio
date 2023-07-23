@@ -103,7 +103,7 @@ function HomePage() {
             marginRight: "auto",
           }}
         >
-          <h6>HI THERE Iapos;M</h6>
+          <h6>HI THERE I&apos;M</h6>
           <h1>AVI PAWAR</h1>
           <h5>
             A
