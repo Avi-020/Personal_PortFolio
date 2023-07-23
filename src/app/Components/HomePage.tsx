@@ -35,13 +35,10 @@ function HomePage() {
               style={{
                 width: "70%",
                 height: "100%",
-                // backgroundColor: "white",
                 marginLeft: "auto",
                 marginRight: "auto",
-                // justifyContent:"space-between"
               }}
             >
-              {/* icons here */}
               <Image
                 src="/images/skype.svg"
                 width={25}
@@ -83,12 +80,12 @@ function HomePage() {
           Resume
         </a>
         <a href="#Projects">
-          {" "}
+          
           <TaskOutlinedIcon className={styles.icons} />
           Projects
         </a>
         <a href="#Contact">
-          {" "}
+          
           <ContactsOutlinedIcon className={styles.icons} />
           Contact
         </a>
@@ -109,11 +106,11 @@ function HomePage() {
           <h6>HI THERE! I'M</h6>
           <h1>AVI PAWAR</h1>
           <h5>
-            A{" "}
+            A
             <span style={{ color: "rgb(61 203 203)" }}>
-              {" "}
-              Front-End Web Developer{" "}
-            </span>{" "}
+
+              Front-End Web Developer
+            </span>
             passionate about creating interactive applications and experiences
             on the web.
           </h5>
