@@ -37,7 +37,7 @@ function HomePage() {
         <a href="#Contact"> <ContactsOutlinedIcon style={{marginRight:"1vh"}}/>Contact</a>
       </div>
 
-      <div className={styles.content} style={{backgroundImage:"url('/images/myimg.png')",backgroundSize:"cover"}}>
+      <div className={styles.content} >
         <h2>Responsive Sidebar Example</h2>
         <p>
           This example use media queries to transform the sidebar to a top

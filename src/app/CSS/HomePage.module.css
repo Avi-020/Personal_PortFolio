@@ -38,8 +38,13 @@
       position: relative;
     }
     .sidebar a {float: left;}
-    div.content {margin-left: 0;}
+    div.content {margin-left: 0;
+    background-color: black;
+    background-image: none;
+    }
+    
   }
+
   
   @media screen and (max-width: 400px) {
     .sidebar a {
