@@ -130,12 +130,12 @@ function HomePage() {
           skilled front-end web developer with a wealth of experience in
           creating captivating and interactive websites. With a keen eye for
           design and a knack for transforming ideas into fully functional
-          digital experiences, I take pride in crafting user-friendly interfaces
-          that leave a lasting impression. Here, you'll find a showcase of my
-          diverse projects, highlighting my expertise in HTML, CSS, JavaScript,
+          digital experiences	&sbquo; I take pride in crafting user-friendly interfaces
+          that leave a lasting impression. Here	&sbquo; you&apos;ll find a showcase of my
+          diverse projects	&sbquo; highlighting my expertise in HTML	&sbquo; CSS	&sbquo; JavaScript	&sbquo;
           and other cutting-edge technologies. Join me on this digital journey
           as I invite you to explore the innovative world of web development
-          through my work. Let's collaborate and turn your visions into reality!
+          through my work. Let&apos;s collaborate and turn your visions into reality!
         </p>
 
         <div className="cards in line mt-5">
@@ -151,7 +151,7 @@ function HomePage() {
                   alt="htmlcss"
                 />
               </div>
-              <div className="mt-2 ms-2"> HTML, CSS</div>
+              <div className="mt-2 ms-2"> HTML&sbquo; CSS</div>
             </div>
 
             <div className={styles.column}>
@@ -175,7 +175,7 @@ function HomePage() {
                   alt="TsJs"
                 />
               </div>
-              <div className="mt-2 ms-2"> Javascript, Typescript</div>
+              <div className="mt-2 ms-2"> Javascript&sbquo; Typescript</div>
             </div>
 
             <div className={styles.column}>
