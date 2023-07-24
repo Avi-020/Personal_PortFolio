@@ -126,7 +126,7 @@ function HomePage() {
           </h5>
         </div>
         <p>
-          Welcome to my personal portfolio website! I am a passionate and
+          Welcome to my personal portfolio website I am a passionate and
           skilled front-end web developer with a wealth of experience in
           creating captivating and interactive websites. With a keen eye for
           design and a knack for transforming ideas into fully functional
@@ -135,7 +135,7 @@ function HomePage() {
           diverse projects	&sbquo; highlighting my expertise in HTML	&sbquo; CSS	&sbquo; JavaScript	&sbquo;
           and other cutting-edge technologies. Join me on this digital journey
           as I invite you to explore the innovative world of web development
-          through my work. Let&apos;s collaborate and turn your visions into reality!
+          through my work. Let&apos;s collaborate and turn your visions into reality
         </p>
 
         <div className="cards in line mt-5">
