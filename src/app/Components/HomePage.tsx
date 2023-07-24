@@ -10,16 +10,21 @@ function HomePage() {
   return (
     <>
       <div className={styles.sidebar}>
-        <div
-          style={{ width: "100%", backgroundColor: "", textAlign: "center" }}
-        >
+        <div style={{ width: "100%", textAlign: "center" }}>
           <Image
             src="/images/myimg.png"
             width={110}
             height={110}
             alt="Picture of the author"
-            style={{ borderRadius: "100%", marginTop: "2vh" ,imageResolution:"from-image 300dpi"}}
+            style={{
+              marginTop: "2vh",
+              border: "5px",
+              borderStyle: "solid",
+              borderColor: "white",
+              borderRadius: "100%",
+            }}
           />
+          <h5 className="mt-2">AVI PAWAR</h5>
           <div
             className="socialMedia"
             style={{
@@ -27,7 +32,7 @@ function HomePage() {
               height: "4vh",
               // backgroundColor: "red",
               marginBottom: "2vh",
-              marginTop: "3vh",
+              marginTop: "0vh",
             }}
           >
             <div
@@ -80,16 +85,16 @@ function HomePage() {
           Resume
         </a>
         <a href="#Projects">
-          
           <TaskOutlinedIcon className={styles.icons} />
           Projects
         </a>
         <a href="#Contact">
-          
           <ContactsOutlinedIcon className={styles.icons} />
           Contact
         </a>
       </div>
+
+      {/* main content  */}
 
       <div className={styles.content}>
         <div
@@ -107,13 +112,102 @@ function HomePage() {
           <h1>AVI PAWAR</h1>
           <h5>
             A
-            <span style={{ color: "rgb(61 203 203)" }}>
-
+            <span
+              style={{
+                color: "rgb(61 203 203)",
+                marginLeft: "5px",
+                marginRight: "5px",
+              }}
+            >
               Front-End Web Developer
             </span>
             passionate about creating interactive applications and experiences
             on the web.
           </h5>
+        </div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates,
+          unde? Incidunt, aspernatur adipisci! Culpa, a sit? Obcaecati pariatur
+          suscipit nobis praesentium amet temporibus veniam totam cupiditate eum
+          ea laborum perferendis vitae, corrupti modi veritatis voluptatum
+          debitis provident. Aliquam numquam odio rerum consequuntur eum ut
+          sapiente veritatis animi temporibus ratione alias nihil, quas ducimus
+          enim officia iusto molestiae at voluptatum libero commodi est unde
+          facilis molestias? Perferendis quaerat reiciendis laboriosam maxime
+          debitis cupiditate, ipsum voluptates ab ea doloremque eligendi tempora
+          ex, sed, porro neque quibusdam sapiente illo modi ratione! Asperiores
+          ea veritatis nostrum voluptatum, fuga eaque deleniti. Accusamus eius
+          suscipit quasi.
+        </p>
+
+        <div className="cards in line mt-5">
+          <h3>Frontend</h3>
+
+          <div className={styles.row}>
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/HTMLCSS.png"
+                  width={100}
+                  height={100}
+                  alt="htmlcss"
+                />
+              </div>
+              <div className="mt-2 ms-2"> HTML, CSS</div>
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/bootstrap.png"
+                  width={200}
+                  height={110}
+                  alt="bootstrap"
+                />
+              </div>
+              <div className="mt-2 ms-2"> Bootstrap</div>
+
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+              <Image
+                  src="/images/TsJs.png"
+                  width={200}
+                  height={110}
+                  alt="TsJs"
+                />
+              </div>
+              <div className="mt-2 ms-2"> Javascript, Typescript</div>
+
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+              <Image
+                  src="/images/ReactTS.png"
+                  width={200}
+                  height={110}
+                  alt="ReactTS"
+                />
+              </div>
+              <div className="mt-2 ms-2"> Reactjs</div>
+
+            </div>
+            
+          </div>
+          <div className={styles.column} style={{marginTop:"2vh"}}>
+              <div className={styles.card}>
+              <Image
+                  src="/images/nextjs.png"
+                  width={200}
+                  height={110}
+                  alt="nextjs"
+                />
+              </div>
+              <div className="mt-2 ms-2"> Nextjs</div>
+
+            </div>
         </div>
       </div>
     </>
