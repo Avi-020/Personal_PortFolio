@@ -126,18 +126,16 @@ function HomePage() {
           </h5>
         </div>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates,
-          unde? Incidunt, aspernatur adipisci! Culpa, a sit? Obcaecati pariatur
-          suscipit nobis praesentium amet temporibus veniam totam cupiditate eum
-          ea laborum perferendis vitae, corrupti modi veritatis voluptatum
-          debitis provident. Aliquam numquam odio rerum consequuntur eum ut
-          sapiente veritatis animi temporibus ratione alias nihil, quas ducimus
-          enim officia iusto molestiae at voluptatum libero commodi est unde
-          facilis molestias? Perferendis quaerat reiciendis laboriosam maxime
-          debitis cupiditate, ipsum voluptates ab ea doloremque eligendi tempora
-          ex, sed, porro neque quibusdam sapiente illo modi ratione! Asperiores
-          ea veritatis nostrum voluptatum, fuga eaque deleniti. Accusamus eius
-          suscipit quasi.
+          Welcome to my personal portfolio website! I am a passionate and
+          skilled front-end web developer with a wealth of experience in
+          creating captivating and interactive websites. With a keen eye for
+          design and a knack for transforming ideas into fully functional
+          digital experiences, I take pride in crafting user-friendly interfaces
+          that leave a lasting impression. Here, you'll find a showcase of my
+          diverse projects, highlighting my expertise in HTML, CSS, JavaScript,
+          and other cutting-edge technologies. Join me on this digital journey
+          as I invite you to explore the innovative world of web development
+          through my work. Let's collaborate and turn your visions into reality!
         </p>
 
         <div className="cards in line mt-5">
@@ -166,12 +164,11 @@ function HomePage() {
                 />
               </div>
               <div className="mt-2 ms-2"> Bootstrap</div>
-
             </div>
 
             <div className={styles.column}>
               <div className={styles.card}>
-              <Image
+                <Image
                   src="/images/TsJs.png"
                   width={200}
                   height={110}
@@ -179,12 +176,11 @@ function HomePage() {
                 />
               </div>
               <div className="mt-2 ms-2"> Javascript, Typescript</div>
-
             </div>
 
             <div className={styles.column}>
               <div className={styles.card}>
-              <Image
+                <Image
                   src="/images/ReactTS.png"
                   width={200}
                   height={110}
@@ -192,13 +188,12 @@ function HomePage() {
                 />
               </div>
               <div className="mt-2 ms-2"> Reactjs</div>
-
             </div>
-            
           </div>
-          <div className={styles.column} style={{marginTop:"2vh"}}>
+          <div className={styles.row}>
+            <div className={styles.column} style={{ marginTop: "2vh" }}>
               <div className={styles.card}>
-              <Image
+                <Image
                   src="/images/nextjs.png"
                   width={200}
                   height={110}
@@ -206,8 +201,61 @@ function HomePage() {
                 />
               </div>
               <div className="mt-2 ms-2"> Nextjs</div>
-
             </div>
+          </div>
+        </div>
+        <div className="projects mt-5 ">
+          <div className={styles.row}>
+            <h3 className="ms-3 mb-3">Projects</h3>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/amazon.png"
+                  width={200}
+                  height={110}
+                  alt="amazon"
+                />
+              </div>
+              <div className="mt-2 ms-2"> e-Commerce</div>
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/ToDO.png"
+                  width={200}
+                  height={110}
+                  alt="ToDO"
+                />
+              </div>
+              <div className="mt-2 ms-2"> ToDo List</div>
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/news.png"
+                  width={200}
+                  height={110}
+                  alt="news"
+                />
+              </div>
+              <div className="mt-2 ms-2"> Daily News</div>
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/texteditor.png"
+                  width={200}
+                  height={110}
+                  alt="texteditor"
+                />
+              </div>
+              <div className="mt-2 ms-2"> TextUtils</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
