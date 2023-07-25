@@ -1,12 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../CSS/HomePage.module.css";
-import DescriptionOutlinedIcon from "@mui/icons-material/DescriptionOutlined";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
-import TaskOutlinedIcon from "@mui/icons-material/TaskOutlined";
+import { Twitter, Instagram, Github, Linkedin,Home,StickyNote,Contact,ClipboardCheck } from "lucide-react";
 
 function HomePage() {
+
   return (
     <>
       <div className={styles.sidebar}>
@@ -30,7 +28,6 @@ function HomePage() {
             style={{
               width: "100%",
               height: "4vh",
-              // backgroundColor: "red",
               marginBottom: "2vh",
               marginTop: "0vh",
             }}
@@ -42,54 +39,121 @@ function HomePage() {
                 height: "100%",
                 marginLeft: "auto",
                 marginRight: "auto",
+                display: "flex",
+                textAlign: "center",
+                justifyContent: "center",
+                flexDirection: "row",
               }}
             >
-              <Image
-                src="/images/skype.svg"
-                width={25}
-                height={25}
-                alt="skype"
-                style={{ marginRight: "2vh" }}
-              />
-              <Image
-                src="/images/github.svg"
-                width={25}
-                height={25}
-                alt="github"
-                style={{ marginRight: "2vh" }}
-              />
-              <Image
-                src="/images/instagram.svg"
-                width={25}
-                height={25}
-                alt="instagram"
-                style={{ marginRight: "2vh" }}
-              />
-              <Image
-                src="/images/linkedin.svg"
-                width={25}
-                height={25}
-                alt="linkedin"
-                style={{ marginRight: "2vh" }}
-              />
+              <div
+                className="circle"
+                style={{
+                  width: "5vh",
+                  height: "5vh",
+                  backgroundColor: "black",
+                  borderRadius: "100%",
+                  display: "flex",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  position: "relative",
+                  cursor: "pointer",
+                }}
+              >
+                <Github
+                  style={{
+                    transform: "translateY(-50%)",
+                    position: "absolute",
+                    top: "50%",
+                  }}
+                />
+              </div>
+              <div
+                className="circle"
+                style={{
+                  width: "5vh",
+                  height: "5vh",
+                  backgroundColor: "black",
+                  borderRadius: "100%",
+                  marginLeft: "1vh",
+                  display: "flex",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  position: "relative",
+                  cursor: "pointer",
+                }}
+              >
+                <Instagram
+                  style={{
+                    transform: "translateY(-50%)",
+                    position: "absolute",
+                    top: "50%",
+                  }}
+                />
+              </div>
+              <div
+                className="circle"
+                style={{
+                  width: "5vh",
+                  height: "5vh",
+                  backgroundColor: "black",
+                  borderRadius: "100%",
+                  marginLeft: "1vh",
+                  display: "flex",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  position: "relative",
+                  cursor: "pointer",
+                }}
+              >
+                <Twitter
+                  style={{
+                    transform: "translateY(-50%)",
+                    position: "absolute",
+                    top: "50%",
+                  }}
+                />
+              </div>
+              <div
+                className="circle"
+                style={{
+                  width: "5vh",
+                  height: "5vh",
+                  backgroundColor: "black",
+                  borderRadius: "100%",
+                  marginLeft: "1vh",
+                  display: "flex",
+                  textAlign: "center",
+                  justifyContent: "center",
+                  position: "relative",
+                  cursor: "pointer",
+                }}
+              >
+                <Linkedin
+                  style={{
+                    transform: "translateY(-50%)",
+                    position: "absolute",
+                    top: "50%",
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>
         <a href="#home">
-          <HomeOutlinedIcon className={styles.icons} />
+          <Home  className={styles.icons} />
           Home
         </a>
 
         <a href="#Resume">
-          <DescriptionOutlinedIcon className={styles.icons} />
+          <StickyNote  className={styles.icons} />
           Resume
         </a>
         <a href="#Projects">
-          <TaskOutlinedIcon className={styles.icons} />
+          <ClipboardCheck  className={styles.icons} />
           Projects
         </a>
         <a href="#Contact">
-          <ContactsOutlinedIcon className={styles.icons} />
+          <Contact  className={styles.icons} />
           Contact
         </a>
       </div>
@@ -126,16 +190,17 @@ function HomePage() {
           </h5>
         </div>
         <p>
-          Welcome to my personal portfolio website I am a passionate and
-          skilled front-end web developer with a wealth of experience in
-          creating captivating and interactive websites. With a keen eye for
-          design and a knack for transforming ideas into fully functional
-          digital experiences	&sbquo; I take pride in crafting user-friendly interfaces
-          that leave a lasting impression. Here	&sbquo; you&apos;ll find a showcase of my
-          diverse projects	&sbquo; highlighting my expertise in HTML	&sbquo; CSS	&sbquo; JavaScript	&sbquo;
-          and other cutting-edge technologies. Join me on this digital journey
-          as I invite you to explore the innovative world of web development
-          through my work. Let&apos;s collaborate and turn your visions into reality
+          Welcome to my personal portfolio website I am a passionate and skilled
+          front-end web developer with a wealth of experience in creating
+          captivating and interactive websites. With a keen eye for design and a
+          knack for transforming ideas into fully functional digital experiences
+          &sbquo; I take pride in crafting user-friendly interfaces that leave a
+          lasting impression. Here &sbquo; you&apos;ll find a showcase of my
+          diverse projects &sbquo; highlighting my expertise in HTML &sbquo; CSS
+          &sbquo; JavaScript &sbquo; and other cutting-edge technologies. Join
+          me on this digital journey as I invite you to explore the innovative
+          world of web development through my work. Let&apos;s collaborate and
+          turn your visions into reality
         </p>
 
         <div className="cards in line mt-5">
@@ -208,6 +273,7 @@ function HomePage() {
           <div className={styles.row}>
             <h3 className="ms-3 mb-3">Projects</h3>
 
+<a href="https://shopping-store-d4s4.vercel.app/" target="_blank" >
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
@@ -217,8 +283,9 @@ function HomePage() {
                   alt="amazon"
                 />
               </div>
-              <div className="mt-2 ms-2"> e-Commerce</div>
+              <div className="mt-2 ms-2" style={{color:"black"}}> e-Commerce</div>
             </div>
+            </a>
 
             <div className={styles.column}>
               <div className={styles.card}>

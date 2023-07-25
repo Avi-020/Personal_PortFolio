@@ -66,6 +66,7 @@
     float: left;
     width: 25%;
     padding: 0 10px;
+    cursor: pointer;
   }
   
   /* Remove extra left and right margins, due to padding */
