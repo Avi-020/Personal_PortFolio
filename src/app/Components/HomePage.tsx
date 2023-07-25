@@ -299,7 +299,7 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/TsJs2.svg"
+                  src="/images/tsJs2.svg"
                   width={200}
                   height={110}
                   alt="TsJs"
