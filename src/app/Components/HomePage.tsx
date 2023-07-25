@@ -1,10 +1,18 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../CSS/HomePage.module.css";
-import { Twitter, Instagram, Github, Linkedin,Home,StickyNote,Contact,ClipboardCheck } from "lucide-react";
+import {
+  Twitter,
+  Instagram,
+  Github,
+  Linkedin,
+  Home,
+  StickyNote,
+  Contact,
+  ClipboardCheck,
+} from "lucide-react";
 
 function HomePage() {
-
   return (
     <>
       <div className={styles.sidebar}>
@@ -140,27 +148,27 @@ function HomePage() {
           </div>
         </div>
         <a href="#home">
-          <Home  className={styles.icons} />
+          <Home className={styles.icons} />
           Home
         </a>
 
         <a href="#Resume">
-          <StickyNote  className={styles.icons} />
+          <StickyNote className={styles.icons} />
           Resume
         </a>
-        <a href="#Projects">
-          <ClipboardCheck  className={styles.icons} />
+        <a href="#projects">
+          <ClipboardCheck className={styles.icons} />
           Projects
         </a>
         <a href="#Contact">
-          <Contact  className={styles.icons} />
+          <Contact className={styles.icons} />
           Contact
         </a>
       </div>
 
       {/* main content  */}
 
-      <div className={styles.content}>
+      <div className={styles.content} id="home">
         <div
           className="intro"
           style={{
@@ -203,6 +211,63 @@ function HomePage() {
           turn your visions into reality
         </p>
 
+        <div className="projects mt-5 " id="projects">
+          <div className={styles.row}>
+            <h3 className="ms-3 mb-3">Projects</h3>
+            <a href="https://shopping-store-d4s4.vercel.app/" target="_blank">
+              <div className={styles.column}>
+                <div className={styles.card}>
+                  <Image
+                    src="/images/amazon.png"
+                    width={200}
+                    height={110}
+                    alt="amazon"
+                  />
+                </div>
+                <div className="mt-2 ms-2" style={{ color: "black" }}>
+                  {" "}
+                  e-Commerce
+                </div>
+              </div>
+            </a>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/ToDO.png"
+                  width={200}
+                  height={110}
+                  alt="ToDO"
+                />
+              </div>
+              <div className="mt-2 ms-2"> ToDo List</div>
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/news.png"
+                  width={200}
+                  height={110}
+                  alt="news"
+                />
+              </div>
+              <div className="mt-2 ms-2"> Daily News</div>
+            </div>
+
+            <div className={styles.column}>
+              <div className={styles.card}>
+                <Image
+                  src="/images/texteditor.png"
+                  width={200}
+                  height={110}
+                  alt="texteditor"
+                />
+              </div>
+              <div className="mt-2 ms-2"> TextUtils</div>
+            </div>
+          </div>
+        </div>
         <div className="cards in line mt-5">
           <h3>Frontend</h3>
 
@@ -269,58 +334,39 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div className="projects mt-5 ">
+
+        <div className="tools" style={{ marginTop: "3vh" }}>
+          <h3>Others</h3>
           <div className={styles.row}>
-            <h3 className="ms-3 mb-3">Projects</h3>
-
-<a href="https://shopping-store-d4s4.vercel.app/" target="_blank" >
             <div className={styles.column}>
               <div className={styles.card}>
-                <Image
-                  src="/images/amazon.png"
+              <Image
+                  src="/images/github.png"
                   width={200}
                   height={110}
-                  alt="amazon"
+                  alt="github"
                 />
               </div>
-              <div className="mt-2 ms-2" style={{color:"black"}}> e-Commerce</div>
             </div>
-            </a>
-
             <div className={styles.column}>
               <div className={styles.card}>
-                <Image
-                  src="/images/ToDO.png"
+              <Image
+                  src="/images/git.png"
                   width={200}
                   height={110}
-                  alt="ToDO"
+                  alt="git"
                 />
               </div>
-              <div className="mt-2 ms-2"> ToDo List</div>
             </div>
-
             <div className={styles.column}>
               <div className={styles.card}>
-                <Image
-                  src="/images/news.png"
+              <Image
+                  src="/images/gitlab.png"
                   width={200}
                   height={110}
-                  alt="news"
+                  alt="gitlab"
                 />
               </div>
-              <div className="mt-2 ms-2"> Daily News</div>
-            </div>
-
-            <div className={styles.column}>
-              <div className={styles.card}>
-                <Image
-                  src="/images/texteditor.png"
-                  width={200}
-                  height={110}
-                  alt="texteditor"
-                />
-              </div>
-              <div className="mt-2 ms-2"> TextUtils</div>
             </div>
           </div>
         </div>
