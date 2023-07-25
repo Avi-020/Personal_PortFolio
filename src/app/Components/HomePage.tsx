@@ -218,7 +218,7 @@ function HomePage() {
               <div className={styles.column}>
                 <div className={styles.card}>
                   <Image
-                    src="/images/amazon.png"
+                    src="/images/amazon2.svg"
                     width={200}
                     height={110}
                     alt="amazon"
@@ -234,7 +234,7 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/ToDO.png"
+                  src="/images/ToDO2.svg"
                   width={200}
                   height={110}
                   alt="ToDO"
@@ -246,7 +246,7 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/news.png"
+                  src="/images/news2.svg"
                   width={200}
                   height={110}
                   alt="news"
@@ -258,8 +258,8 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/texteditor.png"
-                  width={200}
+                  src="/images/texteditor2.svg"
+                  width={150}
                   height={110}
                   alt="texteditor"
                 />
@@ -275,9 +275,9 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/HTMLCSS.png"
+                  src="/images/HTMLCSS2.svg"
                   width={100}
-                  height={100}
+                  height={110}
                   alt="htmlcss"
                 />
               </div>
@@ -287,8 +287,8 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/bootstrap.png"
-                  width={200}
+                  src="/images/bootstrap3.svg"
+                  width={150}
                   height={110}
                   alt="bootstrap"
                 />
@@ -299,7 +299,7 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/TsJs.png"
+                  src="/images/TsJs2.svg"
                   width={200}
                   height={110}
                   alt="TsJs"
@@ -311,7 +311,7 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
                 <Image
-                  src="/images/ReactTS.png"
+                  src="/images/react1.svg"
                   width={200}
                   height={110}
                   alt="ReactTS"
@@ -324,8 +324,8 @@ function HomePage() {
             <div className={styles.column} style={{ marginTop: "2vh" }}>
               <div className={styles.card}>
                 <Image
-                  src="/images/nextjs.png"
-                  width={200}
+                  src="/images/nextjs2.svg"
+                  width={190}
                   height={110}
                   alt="nextjs"
                 />
@@ -341,32 +341,38 @@ function HomePage() {
             <div className={styles.column}>
               <div className={styles.card}>
               <Image
-                  src="/images/github.png"
-                  width={200}
+                  src="/images/github1.svg"
+                  width={250}
                   height={110}
                   alt="github"
                 />
+
               </div>
+                              <div className="mt-2 ms-2"> Github</div>
             </div>
             <div className={styles.column}>
               <div className={styles.card}>
               <Image
-                  src="/images/git.png"
+                  src="/images/git2.svg"
                   width={200}
                   height={110}
                   alt="git"
                 />
+
               </div>
+                              <div className="mt-2 ms-2"> Git</div>
             </div>
             <div className={styles.column}>
               <div className={styles.card}>
               <Image
-                  src="/images/gitlab.png"
+                  src="/images/gitlab1.svg"
                   width={200}
                   height={110}
                   alt="gitlab"
                 />
+
               </div>
+                              <div className="mt-2 ms-2"> Gitlab</div>
             </div>
           </div>
         </div>
