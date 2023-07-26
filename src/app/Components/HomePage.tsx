@@ -211,7 +211,7 @@ function HomePage() {
         <div className="projects mt-5 " id="projects">
           <div className={styles.row}>
             <h3 className="ms-3 mb-3">Projects</h3>
-            <a href="https://shopping-store-d4s4.vercel.app/" target="_blank">
+            <a href="https://github.com/Avi-020/shopping_store" target="_blank">
               <div className={styles.column}>
                 <div className={styles.card}>
                   <Image
@@ -228,8 +228,11 @@ function HomePage() {
               </div>
             </a>
 
+            <a href="https://github.com/Avi-020/ToDo-List" target="_blank">
+
             <div className={styles.column}>
               <div className={styles.card}>
+
                 <Image
                   src="/images/ToDO2.svg"
                   width={200}
@@ -237,8 +240,11 @@ function HomePage() {
                   alt="ToDO"
                 />
               </div>
-              <div className="mt-2 ms-2"> ToDo List</div>
+              <div className="mt-2 ms-2" style={{ color: "black" }}> ToDo List</div>
             </div>
+            </a>
+
+            <a href="https://github.com/Avi-020/Daily-News" target="_blank">
 
             <div className={styles.column}>
               <div className={styles.card}>
@@ -249,8 +255,11 @@ function HomePage() {
                   alt="news"
                 />
               </div>
-              <div className="mt-2 ms-2"> Daily News</div>
+              <div className="mt-2 ms-2" style={{ color: "black" }}> Daily News</div>
             </div>
+            </a>
+
+            <a href="https://github.com/Avi-020/TextUtils-React" target="_blank">
 
             <div className={styles.column}>
               <div className={styles.card}>
@@ -261,8 +270,10 @@ function HomePage() {
                   alt="texteditor"
                 />
               </div>
-              <div className="mt-2 ms-2"> TextUtils</div>
+              <div className="mt-2 ms-2" style={{ color: "black" }}> TextUtils</div>
             </div>
+            </a>
+
           </div>
         </div>
         <div className="cards in line mt-5">
