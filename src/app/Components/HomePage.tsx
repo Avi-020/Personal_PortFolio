@@ -152,17 +152,14 @@ function HomePage() {
           Home
         </a>
 
-        <a href="#Resume">
-          <StickyNote className={styles.icons} />
-          Resume
-        </a>
+        
         <a href="#projects">
           <ClipboardCheck className={styles.icons} />
           Projects
         </a>
         <a href="#Contact">
           <Contact className={styles.icons} />
-          Contact
+          Contact Me
         </a>
       </div>
 
