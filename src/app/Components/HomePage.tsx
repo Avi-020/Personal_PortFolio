@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "next/image";
 import styles from "../CSS/HomePage.module.css";
 import {
@@ -11,8 +11,19 @@ import {
   Contact,
   ClipboardCheck,
 } from "lucide-react";
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+
+
+
+
+
 
 function HomePage() {
+  
+
   return (
     <>
       <div className={styles.sidebar}>
@@ -177,7 +188,7 @@ function HomePage() {
             marginRight: "auto",
           }}
         >
-          <h6>HI THERE I&apos;M</h6>
+        <h6 style={{color:"#16151575"}}>HI THERE I&apos;M</h6>
           <h1>AVI PAWAR</h1>
           <h5>
             A
